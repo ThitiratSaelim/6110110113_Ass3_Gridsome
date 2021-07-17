@@ -73,19 +73,19 @@ module.exports = {
   templates: {
     Blog: [
       {
-        path: '/blog/:title'
+        path: '/6110110113_Ass3_Gridsome/blog/:title'
       }
     ],
     Category: [{
-      path: '/category/:title',
+      path: '/6110110113_Ass3_Gridsome/category/:title',
       component: '~/templates/Category.vue'
     }],
     Author: [{
-      path: '/author/:name',
+      path: '/6110110113_Ass3_Gridsome/author/:name',
       component: '~/templates/Author.vue'
     }],
     Tag: [{
-      path: '/tags/:title',
+      path: '/6110110113_Ass3_Gridsome/tags/:title',
     }],
   }
 }
