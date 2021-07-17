@@ -4,7 +4,7 @@
       <small>— {{ $static.metadata.siteName + $static.metadata.pathPrefix }} —</small>
 
       <h3 class="font-thin pt-0 mt-0">
-        <g-link :to="'rrrrrrrr' + record.path">{{ record.title }}</g-link>
+        <g-link :to="record.path">{{ record.title }}</g-link>
       </h3>
     </header>
 
