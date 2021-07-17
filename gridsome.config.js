@@ -23,7 +23,8 @@ module.exports = {
     {
       use: 'gridsome-source-static-meta',
       options: {
-        path: 'content/site/*.json'
+        path: 'content/site/*.json',
+        pathPrefix: '/6110110113_Ass3_Gridsome',
       }
     },
     {
@@ -37,7 +38,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Blog',
-        path: './blog/**/*.md',
+        path: './content/blog/**/*.md',
         refs: {
           author: 'Author',
           tags: {
