@@ -37,7 +37,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Blog',
-        path: './6110110113_Ass3_Gridsome/blog/**/*.md',
+        path: './content/blog/**/*.md',
         refs: {
           author: 'Author',
           tags: {
@@ -81,7 +81,7 @@ module.exports = {
       component: '~/templates/Category.vue'
     }],
     Author: [{
-      path: '/author/:name',
+      path: '/authorrrr/:name',
       component: '~/templates/Author.vue'
     }],
     Tag: [{
