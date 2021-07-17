@@ -6,7 +6,7 @@
         <span class="text-gray-500">&nbsp; / &nbsp;</span>
         <span>
           <g-link
-            :to="$page.blog.category.path"
+            :to="'6110110113_Ass3_Gridsome'+$page.blog.category.path"
             class="hover:underline"
           >{{ $page.blog.category.title }}</g-link>
         </span>
@@ -19,7 +19,7 @@
 
     <section class="post-content container mx-auto bg-white relative p-10 font-serif text-gray-700">
       <div class="post-content-excerpt text-xl border-b pb-10 mb-10" v-html="$page.blog.excerpt"></div>
-      <div class="post-content-text text-xl" v-html="'/6110110113_Ass3_Gridsome'+$page.blog.content"></div>
+      <div class="post-content-text text-xl" v-html="$page.blog.content"></div>
     </section>
 
     <section class="post-tags container mx-auto bg-white relative p-10">
