@@ -37,6 +37,7 @@
 </template>
 
 <script>
+// console.log(record.path);
 export default {
   props: ["record"]
 };

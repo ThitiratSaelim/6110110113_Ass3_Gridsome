@@ -37,7 +37,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Blog',
-        path: './content/6110110113_Ass3_Gridsome/blog/**/*.md',
+        path: './6110110113_Ass3_Gridsome/blog/**/*.md',
         refs: {
           author: 'Author',
           tags: {
