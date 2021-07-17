@@ -82,8 +82,6 @@ query {
 }
 </static-query>
 
-
-
 <script>
 import HeaderNavigation from "~/layouts/partials/HeaderNavigation.vue";
 export default {

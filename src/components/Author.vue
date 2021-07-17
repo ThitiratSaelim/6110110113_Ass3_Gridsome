@@ -10,7 +10,7 @@
 
           <div class="text-center md:text-left">
             <g-link
-        :to="author.path" class="text-black"><h2 class="text-lg my-1 mt-2">{{ author.name }}</h2></g-link>
+            :to="author.path" class="text-black"><h2 class="text-lg my-1 mt-2">{{ author.name }}</h2></g-link>
             <div class="text-gray-600">{{ author.bio }}</div>
           </div>
         </div>
