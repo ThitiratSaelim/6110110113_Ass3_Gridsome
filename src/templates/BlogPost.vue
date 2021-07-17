@@ -38,11 +38,9 @@
     <section class="post-related bg-gray-200 py-20 pb-10">
 
       <div class="container mx-auto px-6 sm:px-0 flex flex-wrap">
-
         <BlogRelatedCategory :record="$page.blog.category"></BlogRelatedCategory>
         <ListItem v-if="$page.previous" :record="$page.previous"></ListItem>
         <ListItem v-if="$page.next" :record="$page.next"></ListItem>
-
       </div>
 
     </section>

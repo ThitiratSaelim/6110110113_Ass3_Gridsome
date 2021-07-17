@@ -5,7 +5,6 @@ module.exports = {
   siteDescription: 'The Most Popular Korean Series',
   siteUrl: 'https://ThitiratSaelim.github.io',
   pathPrefix: '/6110110113_Ass3_Gridsome',
-  // siteUrl: 'http://localhost:8080',
 
   plugins: [
     {
@@ -73,7 +72,6 @@ module.exports = {
     Blog: [
       {
         path: '/blog/:title',
-        // component: '~/templates/BlogPost.vue'
       }
     ],
     Category: [{

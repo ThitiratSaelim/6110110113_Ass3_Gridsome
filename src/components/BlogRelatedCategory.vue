@@ -1,7 +1,7 @@
 <template>
   <article class="post-card text-center bg-gray-900 text-white relative">
     <header class="pt-10">
-      <small>— {{ $static.metadata.siteName}} —</small>
+      <small>— {{ $static.metadata.siteName }} —</small>
 
       <h3 class="font-thin pt-0 mt-0">
         <g-link :to="record.path">{{ record.title }}</g-link>
