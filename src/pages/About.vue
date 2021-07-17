@@ -11,7 +11,8 @@
             <p> 
               Subject : 240-420 WEB ENGINEERING AND APP <br>
               Name : Thitirat Saelim <br>
-              Student ID : 6110110113 <br><br>
+              Student ID : 6110110113 <br>
+              Introduce : https://sites.google.com/psu.ac.th/6110110113/introduction <br><br>
             </p>
             <p>
               K-dramas, are television series in the Korean language, made in South Korea. Korean dramas are popular worldwide, partially due to the spread of Korean popular culture (the "Korean Wave"), and their widespread availability via streaming services which often offer subtitles in multiple languages. Many K-dramas have been adapted throughout the world, and some have had great impact on other countries.[1] Some of the most famous dramas have been broadcast via traditional television channels in other countries. For example, Dae Jang Geum (2003) was sold to 91 countries. K-dramas have attracted attention for their fashion, style and culture all over the world. The rise in popularity of Korean dramas had led to a great boost to fashion line.
