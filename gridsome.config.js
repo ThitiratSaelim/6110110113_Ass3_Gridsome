@@ -72,7 +72,8 @@ module.exports = {
   templates: {
     Blog: [
       {
-        path: '/blog/:title'
+        path: '/blog/:title',
+        component: '~/templates/BlogPost.vue'
       }
     ],
     Category: [{
