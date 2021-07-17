@@ -72,8 +72,8 @@ module.exports = {
   templates: {
     Blog: [
       {
-        path: '/6110110113_Ass3_Gridsome/blog/:title',
-        component: '~/templates/BlogPost.vue'
+        path: '/blog/:title',
+        // component: '~/templates/BlogPost.vue'
       }
     ],
     Category: [{

@@ -12,6 +12,7 @@
         </span>
       </p>
       <h1 class="text-4xl font-bold">{{ $page.blog.title}}</h1>
+      <h1 class="text-4xl font-bold"> HELLOOOOOOOO </h1>
     </section>
     <section class="post-image mx-auto w-full xl:px-20">
       <g-image :src="$page.blog.image"></g-image>
