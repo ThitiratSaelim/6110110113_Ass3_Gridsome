@@ -24,7 +24,6 @@ module.exports = {
       use: 'gridsome-source-static-meta',
       options: {
         path: 'content/site/*.json',
-        pathPrefix: '/6110110113_Ass3_Gridsome',
       }
     },
     {
