@@ -6,7 +6,7 @@
         <span class="text-gray-500">&nbsp; / &nbsp;</span>
         <span>
           <g-link
-            :to="'6110110113_Ass3_Gridsome'+$page.blog.category.path"
+            :to="$page.blog.category.path"
             class="hover:underline"
           >{{ $page.blog.category.title }}</g-link>
         </span>
