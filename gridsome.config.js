@@ -73,7 +73,7 @@ module.exports = {
   templates: {
     Blog: [
       {
-        path: '/6110110113_Ass3_Gridsome/blog/:title'
+        path: '/6110110113_Ass3_Gridsome/:title'
       }
     ],
     Category: [{
