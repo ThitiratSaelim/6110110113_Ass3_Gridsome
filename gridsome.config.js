@@ -3,8 +3,10 @@ const path = require('path');
 module.exports = {
   siteName: 'Korean Series',
   siteDescription: 'The Most Popular Korean Series',
-  siteUrl: 'http://localhost:8080',
-  pathPrefix: '/6110110113',
+  siteUrl: 'https://ThitiratSaelim.github.io',
+  pathPrefix: '/6110110113_Ass3_Gridsome',
+  // siteUrl: 'http://localhost:8080',
+  // pathPrefix: '/6110110113',
 
   plugins: [
     {
