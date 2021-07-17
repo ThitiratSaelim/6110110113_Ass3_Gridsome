@@ -6,7 +6,6 @@ module.exports = {
   siteUrl: 'https://ThitiratSaelim.github.io',
   pathPrefix: '/6110110113_Ass3_Gridsome',
   // siteUrl: 'http://localhost:8080',
-  // pathPrefix: '/6110110113',
 
   plugins: [
     {
@@ -73,19 +72,19 @@ module.exports = {
   templates: {
     Blog: [
       {
-        path: '/6110110113_Ass3_Gridsome/:title'
+        pathPrefix: '/blog/:title'
       }
     ],
     Category: [{
-      path: '/6110110113_Ass3_Gridsome/category/:title',
+      pathPrefix: '/category/:title',
       component: '~/templates/Category.vue'
     }],
     Author: [{
-      path: '/6110110113_Ass3_Gridsome/author/:name',
+      pathPrefix: '/author/:name',
       component: '~/templates/Author.vue'
     }],
     Tag: [{
-      path: '/6110110113_Ass3_Gridsome/tags/:title',
+      pathPrefix: '/tags/:title',
     }],
   }
 }
