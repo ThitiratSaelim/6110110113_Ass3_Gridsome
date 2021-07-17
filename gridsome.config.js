@@ -22,8 +22,7 @@ module.exports = {
     {
       use: 'gridsome-source-static-meta',
       options: {
-        pathPrefix: '/6110110113_Ass3_Gridsome',
-        path: 'content/site/*.json',     
+        path: 'content/site/*.json'
       }
     },
     {
@@ -72,7 +71,7 @@ module.exports = {
   templates: {
     Blog: [
       {
-        path: '/blog/:title',
+        path: '/blog/:title'
       }
     ],
     Category: [{
