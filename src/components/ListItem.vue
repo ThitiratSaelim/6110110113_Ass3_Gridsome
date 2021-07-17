@@ -1,6 +1,6 @@
 <template>
   <article class="post-card bg-white">
-    <a class="post-card-image-link" :href="record.path">
+    <a class="post-card-image-link" :href="'/6110110113_Ass3_Gridsome'">
       <div class="post-card-image">
         <g-image :src="record.image" class="object-cover h-full w-full"></g-image>
       </div>
