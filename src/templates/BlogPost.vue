@@ -148,7 +148,6 @@ export default {
     BlogRelatedCategory
   },
   metaInfo() {
-    // console.log($page.blog.category.path);
     return {
       title: this.$page.blog.title,
       bodyAttrs: {
