@@ -19,7 +19,7 @@
 
     <section class="post-content container mx-auto bg-white relative p-10 font-serif text-gray-700">
       <div class="post-content-excerpt text-xl border-b pb-10 mb-10" v-html="$page.blog.excerpt"></div>
-      <div class="post-content-text text-xl" v-html="$page.blog.content"></div>
+      <div class="post-content-text text-xl" v-html="'/6110110113_Ass3_Gridsome'+$page.blog.content"></div>
     </section>
 
     <section class="post-tags container mx-auto bg-white relative p-10">
